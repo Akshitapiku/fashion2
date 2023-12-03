@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        @media(max-width: 500px){
+            body{
+                flex-wrap: wrap;
+            }
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .p-content{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 15%;
+            margin-right: 45px;
+
+        
+        }
+        .p-content h2{
+            font-size: 30px ;
+            font-weight: 500;
+        }
+        .p-content select{
+            width: 140px;
+            height: 25px;
+            border: 2px solid transparent;
+            margin-top: 25px;
+            margin-right: 10%;
+        }
+        
+        .row-1{
+            display: flex;
+            justify-content: space-evenly;
+            /* padding: 30px; */
+            padding-bottom: 30px;
+            
+        }
+        .col-1{
+            transition: transform 0.5s;
+        }
+        .col-1:hover{
+            transform: translateY(-10px);
+        }
+        .col-2{
+            transition: transform 0.5s;
+        }
+        .col-2:hover{
+            transform: translateY(-10px);
+        }
+        .col-3{
+            transition: transform 0.5s;
+        }
+        .col-3:hover{
+            transform: translateY(-10px);
+        }
+        .row-2{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 30px;
+        }
+        .row-3{
+            display: flex;
+            justify-content:space-evenly;
+            padding: 30px;
+        }
+        .row-4{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="p-content">
+        <h2>All Products</h2>
+        <select name="products" id="p">
+            <option value="1">Default Shorting</option>
+            <option value="2">Short by popularity</option>
+            <option value="3">short by rating</option>
+            <option value="4">short by sale</option>
+        </select>
+    </div>
+        <div class="p-product">
+            <div class="row-1">
+                <div class="col-1">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+
+                    <p>$699.00</p>
+                </div>
+                <div class="col-2">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""><br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="col-1">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""><br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-2">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""><br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="col-1">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""><br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-2">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+            </div>
+            <div class="row-4">
+                <div class="col-1">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-2">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XD18_yzSO3uteBrU53zqKgHaHa&pid=Api&P=0&h=180" alt=""> <br>
+                    <h3>Black T-shirt & Trouser</h3>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$699.00</p>
+                </div>
+            </div>
+        
+    </div>
+
+
+    
+</body>
+</html>

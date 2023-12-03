@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Account | Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @media(max-width: 500px){
+            body{
+                flex-wrap: wrap;
+            }
+        }
+        body{
+    /* background: radial-gradient(#fff, #eb6655 ); */
+    background: linear-gradient(#fff, #ff523b);
+            
+        }
+        .log-container{
+            border: 2px solid transparent;
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            margin-left: 35%;
+            margin-top:10%;
+            box-shadow: 0 0 10px 0 #ff7852;
+            /* background: radial-gradient(#fff, #ff523b); */
+
+            background-color: white;
+
+        }
+        .log-content{
+            margin-top: 30px;
+        }
+        .data h1{
+
+            padding: 8px;
+            font-size: 45px;
+        }
+        .data input{
+            padding: 8px;
+            margin: 10px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            
+        }
+        .data button{
+            margin: 10px;
+            width: 180px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid transparent;
+
+            background: radial-gradient(#fff, #ff523b);
+            /* color: white; */
+            font-size: 19px;
+
+
+
+        }
+        .data p{
+            margin: 10px;
+            font-size: 19px;
+
+        }
+        .data p a{
+            text-decoration: none;
+            color: #ff523b;
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="log-container">
+        <div class="log-content">
+            <log class="data">
+                <h1>Login</h1>
+                <input type="text" placeholder="Username"><br>
+                <input type="password" name="pswd" id="p" placeholder="Password"><br>
+                <button>Login</button><br>
+                <p>Don't have an account? <a href="account-signup.html">Sign Up</a></p>
+
+            </log>
+        </div>
+    </div>
+    
+</body>
+</html>
